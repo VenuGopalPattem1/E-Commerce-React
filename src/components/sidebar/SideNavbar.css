@@ -1,0 +1,66 @@
+/* Main Sidebar Container */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  height: 100vh;
+  width: 220px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Category Link (Admin view) */
+.sidebar-category {
+  color: #007bff; /* Primary color */
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem;
+  margin: 0.4rem 0;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-category:hover {
+  background-color: #e2e6ea;
+  color: #0056b3;
+}
+
+/* User view: Each Category Item Container */
+.sidebar-item {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+/* User view: Category Link */
+.sidebar-link {
+  color: #343a40;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 0.8rem;
+  display: block;
+  border-radius: 5px;
+}
+
+.sidebar-link:hover {
+  background-color: #f0f0f5; /* Subtle background for hover */
+  color: #007bff;
+}
+
+/* No Categories Text */
+.sidebar p {
+  color: #6c757d;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Optional: Active Link Styling */
+.sidebar-category.active,
+.sidebar-link.active {
+  background-color: #d1ecf1;
+  color: #004085;
+  font-weight: bold;
+}

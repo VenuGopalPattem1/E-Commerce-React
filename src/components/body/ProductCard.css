@@ -1,0 +1,20 @@
+.card {
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between rows */
+    padding: 15px; /* Add padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures image covers the area without stretching */
+    border-radius: 10px 10px 0 0; /* Rounded corners on the image */
+  }
+  

@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+.navbar {
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar .form-control {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    color: #495057;
+  }
+  
+  .navbar .form-control::placeholder {
+    color: #6c757d;
+  }
+  
+  .navbar .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .navbar .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar .navbar-collapse {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar .form-control {
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar .btn {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar .d-flex.align-items-center.ms-2 .bg-light {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
